@@ -40,3 +40,9 @@ function hex_to_rgb(hex) {
     // log(hex);
     return hex;
 }
+
+function insert_mid_string(string, location, input_txt) { //inserts a string into the middle of another string
+    let a = string.slice(0, -(string.length - location));   //string is the initial string
+    let b = string.slice(location, string.length);          //location is the location for the text to be added
+    return `${a}${input_txt}${b}`;                          //input_txt is the text thats being added
+}
