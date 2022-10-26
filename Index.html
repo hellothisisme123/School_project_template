@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./French_Vanilla.js" defer></script>
+    <script src="./Main.js" defer></script>
+</head>
+<!-- <script src="./saves.json" defer></script> -->
+<body>
+    <div class="container">
+        <div class="terminal">
+            <input type="text" class="terminal_input">
+        </div>
+        <div class="terminal_tab">Terminal</div>
+        <div id="data_container">
+            <table class="information_table">
+                <tr class="table_row">
+                    <td class="table_row_1_column_1">
+                        <textarea type="text" class="data_input"></textarea>
+                    </td>
+                    <td class="table_row_1_column_2">
+                        <textarea type="text" class="data_input"></textarea>
+                    </td>
+                    <td class="table_row_1_column_3">
+                        <textarea type="text" class="data_input"></textarea>
+                    </td>
+                </tr>
+                <tr class="table_row">
+                    <td class="table_row_2_column_1">
+                        <textarea type="text" class="data_input"></textarea>
+                    </td>
+                    <td class="table_row_2_column_2">
+                        <textarea type="text" class="data_input"></textarea>
+                    </td>
+                    <td class="table_row_2_column_3">
+                        <textarea type="text" class="data_input"></textarea>
+                    </td>
+                </tr>
+                <tr class="table_row">
+                    <td class="table_row_3_column_1">
+                        <textarea type="text" class="data_input"></textarea>
+                    </td>
+                    <td class="table_row_3_column_2">
+                        <textarea type="text" class="data_input"></textarea>
+                    </td>
+                    <td class="table_row_3_column_3">
+                        <textarea type="text" class="data_input"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <button onclick="save_to_table()">Save</button>
+            <button onclick="clear_console()">Clear</button>
+        </div>  
+    </div>
+</body>
