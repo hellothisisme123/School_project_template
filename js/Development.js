@@ -133,7 +133,7 @@ function random_color(bg_color) {
 
 
 window.onload = () => {
-    document.querySelector('.container').innerHTML += '<div class="terminal"><input type="text" class="terminal_input"></div>';
+    document.querySelector('.container').innerHTML += '<div class="terminal"><input type="text" class="terminal_input"></div><div class="terminal_tab">Terminal</div>';
     log('terminal active');
     terminal_input.addEventListener('keyup', input_enter);
 
