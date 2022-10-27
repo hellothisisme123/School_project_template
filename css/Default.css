@@ -33,7 +33,7 @@ html {
 
 .terminal_tab {
     left: 20%;
-    width: 2%;
+    aspect-ratio: 1 / 3.5;
     height: 30vh;
     border-bottom: 0.2em solid #111;
     border-bottom-right-radius: 10px;
