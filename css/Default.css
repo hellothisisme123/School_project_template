@@ -29,17 +29,19 @@ html {
     margin: 0;
     padding: 0.5%;
     overflow-y: scroll;
+    /* min-width: 200px; */
 }
 
 .terminal_tab {
     left: 20%;
     aspect-ratio: 1 / 3;
-    width: 7vh;
+    width: 2rem;
     border-bottom: 0.2em solid #111;
     border-bottom-right-radius: 10px;
     font-size: 0.7em;
     text-align: center;
-    padding-top: 0.3%;
+    display: grid;
+    justify-content: center;
 }
 
 .terminal_tab:hover {
@@ -49,7 +51,7 @@ html {
 
 .terminal_tab > p {
     transform: rotate(90deg);
-    margin-top: 20%;
+    margin: auto;
 }
 
 .terminal_input {
